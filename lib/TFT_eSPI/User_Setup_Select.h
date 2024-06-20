@@ -134,6 +134,9 @@
 #ifdef NERDMINERV2
 #include <User_Setups/Setup206_LilyGo_T_Display_S3.h>
 #endif
+#ifdef ESP32_2432S028_2USB
+#include <User_Setups/Setup400_2432S028R2USB.h>
+#endif
 #ifdef NERMINER_S3_AMOLED
 #include <User_Setups/Setup206_LilyGo_T_Display_S3.h> //Just a stub. No driver implementation for S3 AMOLED in TFT_eSPI
 #endif
